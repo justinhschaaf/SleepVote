@@ -1,0 +1,36 @@
+#
+# ##### ##### #   # ##### ##### #####
+# #     #   # ##  # #       #   #
+# #     #   # # # # ###     #   #  ##
+# #     #   # #  ## #       #   #   #
+# ##### ##### #   # #     ##### #####
+#
+
+# What percentage of people are required to sleep before it becomes day?
+# Should range from 0.0-1.0
+# Default: 0.33
+sleep_percent: 0.33
+
+# Players in the following gamemodes will be exempt from the sleep count
+# Possible options are creative, survival, adventure, spectator (not case sensitive)
+# Default: creative, spectator
+exempt_gamemodes:
+    - creative
+    - spectator
+
+# Localization Settings
+localization:
+
+    # When a player enters their bed
+    # %p% = player, %c% = current number of players sleeping, %t% = total number of sleep candidates
+    # Default: "    &f&l%p%&7 has started sleeping (&f&l%c%&7/&f&l%t%&7)"
+    player_enter_bed: "    &f&l%p%&7 has started sleeping (&f&l%c%&7/&f&l%t%&7)"
+
+    # When a player leaves their bed
+    # %p% = player, %c% = current number of players sleeping, %t% = total number of sleep candidates
+    # Default: "    &f&l%p%&7 has stopped sleeping (&f&l%c%&7/&f&l%t%&7)"
+    player_leave_bed: "    &f&l%p%&7 has stopped sleeping (&f&l%c%&7/&f&l%t%&7)"
+
+    # When enough players sleep to make it daytime
+    # Default: "    &7Good morning, everyone!"
+    become_daytime: "    &7Good morning, everyone!"

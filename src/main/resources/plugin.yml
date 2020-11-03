@@ -1,0 +1,11 @@
+main: com.justinschaaf.sleepvote.SleepVote
+name: SleepVote
+version: 1.0
+description: Only requires a percentage of players to sleep before it becomes day.
+api-version: 1.16
+author: Justin Schaaf
+website: justinschaaf.com
+permissions:
+    sleepvote.exempt:
+        description: Makes it so this player is not counted in the total required to sleep
+        op: true
